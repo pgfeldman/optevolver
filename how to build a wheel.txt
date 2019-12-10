@@ -1,0 +1,10 @@
+
+install these packages
+pip install --user --upgrade setuptools wheel
+
+in this directory:
+python setup.py sdist bdist_wheel
+
+cd to the 'dist' directory
+pip install optevolver-0.1.0-py3-none-any.whl
+
