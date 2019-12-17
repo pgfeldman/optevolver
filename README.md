@@ -219,8 +219,11 @@ plt.show()
 </pre>
 
 This gives us two plots. The first is a 3D surface of our fitness landscape: 
+
 ![Fitness landscape](./reports/figures/Surface.png)
+
 The second is a plot of best values. Here we can see the result of the earlier, exhaustive search. It took a total of 1,600 steps, and found a new best value 16 times. The evolutionary approach ran for just 16 generations, with a population of 10 for each calculation for a total of 160 steps. For a true apples to apples comparison, the grid search should work with an ensemble of 10 samples as well, so the evolutionary approach is at least 100 times faster than the grid search, and nearly as effective.
+
 ![Fitness landscape](./reports/figures/progress.png)
 
 Next, we'll try this approach with Tensorflow architecture and hyperparameter values!
