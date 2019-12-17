@@ -62,7 +62,7 @@ Evolutionary parameter search for architecture and hyperparameters
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
-<h1>Package Tutorial</h1>
+<h1>Package Tutorials</h1>
 
 Conceptually, there are two parts to this package. The core is the <b>EvolutionaryOptimizer.py</b> module, that builds a population of <em>Genomes</em>, and evolves that population over multiple generations against a fitness test. Two additional files, <b>TF2OptimizerTestBase.py</b> and <b>TF2OptimizerTest.py</b> demonstrate how to use the evolver to search hyperparameter and architecture spaces with Tensorflow 2.x. 
 
@@ -188,7 +188,7 @@ Next, save the results to a spreadsheet for post hoc analysis.
 <pre>
 eo.save_results("evolve_test.xlsx")
 </pre>
-Thesaved spreadsheet will include all the best values for each generation and can be used to make nice plots:
+The saved spreadsheet will include all the best values for each generation and can be used to make nice plots:
 ![Example Spreadsheet](./reports/figures/ExcelHistory.png)
 
 Last, plot the exhaustive and evolve sequences. The exhaustive line is almost deterministic and will pretty much look the same for each run. The evolved line is stochastic, and can change significantly for each run.
@@ -226,6 +226,7 @@ The second is a plot of best values. Here we can see the result of the earlier, 
 
 ![Fitness landscape](./reports/figures/progress.png)
 
+<h2>TF2OptimizationTest Tutorial</h2>
 Next, we'll try this approach with Tensorflow architecture and hyperparameter values!
 
 
