@@ -763,7 +763,7 @@ if __name__ == '__main__':
     vzvals = VA.EvolveAxis("Zvals1", VA.ValueAxisType.FLOAT, parent=vzfunc, min=0, max=5, step=0.5)
     vzvals = VA.EvolveAxis("Zvals2", VA.ValueAxisType.FLOAT, parent=vzfunc, min=0, max=5, step=0.5)
 
-    # do an exhastive evaluation for comparison. Each time a new, better value is found, add it to the list for plotting
+    # do an exhaustive evaluation for comparison. Each time a new, better value is found, add it to the list for plotting
     prev_fitness = -10
     num_exhaust = 0
     exhaustive_list = []

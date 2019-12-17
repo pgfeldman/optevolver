@@ -28,13 +28,13 @@ def example_save_function(name: str) -> str:
 v1 = VA.EvolveAxis("X", VA.ValueAxisType.FLOAT, min=-5, max=5, step=0.25)
 v2 = VA.EvolveAxis("Y", VA.ValueAxisType.FLOAT, min=-5, max=5, step=0.25)
 
-# do an exhastive evaluation for comparison. Each time a new, better value is found, add it to the list for plotting
+# do an exhaustive evaluation for comparison. Each time a new, better value is found, add it to the list for plotting
 prev_fitness = -10
-num_exhaust = 0
+count = 0
 exhaustive_list = []
 for x in range(len(v1.range_array)):
     for y in range(len(v2.range_array)):
-        num_exhaust += 1
+        count += 1
         args = {'X': v1.range_array[x], 'Y': v2.range_array[y], EO.EvolverTags.ID.value: "eval_[{}]_[{}]".format(x, y)}
         d1, d2 = example_evaluation_function(args)
         cur_fitness = d1[EO.EvolverTags.FITNESS.value]
@@ -59,10 +59,10 @@ eo.create_intital_genomes(10)
 # create a List of fitness values to plot
 evolve_list = []
 # set the number of generations
-num_generations = len(exhaustive_list) * 2
+num_generations = len(exhaustive_list)
 for i in range(num_generations):
     # evolve a generation, providing the evaluation and save functions, and a crossover and mutation rate of 50%
-    fitness = eo.run_optimizer(example_evaluation_function, example_save_function, 0.5, 0.5)
+    fitness = eo.run_optimizer(example_evaluation_function, example_save_function, crossover_rate=0.5, mutation_rate=0.5)
     evolve_list.append(fitness)
     # print("best fitness = {:.3f}".format(fitness))
 
@@ -86,7 +86,7 @@ eo.save_results("evolve_test.xlsx")
 fig = plt.figure(1)
 plt.plot(exhaustive_list)
 plt.plot(evolve_list)
-plt.legend(["exhaustive ({} iterations)".format(num_exhaust), "evolved ({} iterations)".format(num_generations)])
+plt.legend(["exhaustive ({} iterations)".format(count), "evolved ({} iterations)".format(num_generations)])
 
 # draw a picture of our XY fitness landscape. This is the same range used to create the axis and the same equation in
 # def example_evaluation_function(arguments: Dict) -> Dict:
