@@ -186,7 +186,7 @@ if __name__ == "__main__":
         # contribute its EvolveAxis value to the newly created offspring. Mutation rate is the chance that a
         # gene will change after the initial crossover. Once crossover and mutation are finished, the newly
         # instantiated genome is added to the population
-        num_generations = 5
+        num_generations = 50
         crossover_rate = 0.5
         mutation_rate = 0.5
         for i in range(num_generations):

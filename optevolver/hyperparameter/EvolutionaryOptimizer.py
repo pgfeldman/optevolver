@@ -1,4 +1,4 @@
-# Evolutionary optimizer will cover the fitness landscape using evolutionary algorithms
+# Evolutionary optimizer for hyperparameters and architecture. Project at https://github.com/pgfeldman/optevolver
 import concurrent.futures
 import copy
 import datetime
