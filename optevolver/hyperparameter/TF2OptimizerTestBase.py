@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
 import time
-from tensorflow_core.python.keras import layers
+from tensorflow.keras import layers
 
 import optevolver.generators.FloatFunctions as FF
 
