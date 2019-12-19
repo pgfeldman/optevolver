@@ -470,6 +470,7 @@ num_generations = 15
 crossover_rate = 0.5
 mutation_rate = 0.5
 for i in range(num_generations):
+    tf.keras.backend.clear_session() # Needed to clear models from the gpu
     # run the optimizer with references to the eval and save functions, plus the crossover and mutation
     # rate. One of the reasons that we do this is that it can make sense to start with a high mutation and
     # crossover rate, but as we hillclimb, we may want more conservative values
@@ -478,3 +479,11 @@ for i in range(num_generations):
     # print the current results
     print("best average fitness (generation {}) = {:.3f}".format(i, best_ensemble_average_fitness))
 </pre>
+
+I'd like to emphasize the line
+<pre>tf.keras.backend.clear_session()</pre>
+It turns out that Keras likes to hang onto models. Over time, these models accumulate onto the GPU, and you start having memory allocation errors like this:
+
+ <em>OOM when allocating tensor with shape[X,Y]<em>
+ 
+ Most of the answers will talk about that you need to limit batch size, or other memory improving techniques. But it can also happen with small models like this one. The clear_session() call takes care of that, but it must be called outside of any device-specific code.

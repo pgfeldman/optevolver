@@ -3,7 +3,7 @@ import time
 import tensorflow as tf
 from tensorflow.keras import layers
 from typing import Dict, Tuple
-from numba import cuda
+
 
 import optevolver.generators.FloatFunctions as FF
 import optevolver.hyperparameter.EvolutionaryOptimizer as EO
@@ -228,7 +228,7 @@ if __name__ == "__main__":
         # contribute its EvolveAxis value to the newly created offspring. Mutation rate is the chance that a
         # gene will change after the initial crossover. Once crossover and mutation are finished, the newly
         # instantiated genome is added to the population
-        num_generations = 15
+        num_generations = 2
         crossover_rate = 0.5
         mutation_rate = 0.5
         for i in range(num_generations):
