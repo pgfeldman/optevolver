@@ -224,7 +224,7 @@ This gives us two plots. The first is a 3D surface of our fitness landscape:
 
 The second is a plot of best values. Here we can see the result of the earlier, exhaustive search. It took a total of 1,600 steps, and found a new best value 16 times. The evolutionary approach ran for just 16 generations, with a population of 10 for each calculation for a total of 160 steps. For a true apples to apples comparison, the grid search should work with an ensemble of 10 samples as well, so the evolutionary approach is at least 100 times faster than the grid search, and nearly as effective.
 
-![Fitness landscape](./reports/figures/progress.png)
+![Progress](./reports/figures/progress.png)
 
 <h2>TF2OptimizationTest Tutorial</h2>
 (The code for this tutorial is in the optevolver/examples/TF2_opt_example.py file)
@@ -484,6 +484,37 @@ I'd like to emphasize the line
 <pre>tf.keras.backend.clear_session()</pre>
 It turns out that Keras likes to hang onto models. Over time, these models accumulate onto the GPU, and you start having memory allocation errors like this:
 
- <em>OOM when allocating tensor with shape[X,Y]<em>
+<em><a href="https://stackoverflow.com/questions/46066850/understanding-the-resourceexhaustederror-oom-when-allocating-tensor-with-shape">OOM when allocating tensor with shape[X,Y]</a></em>
  
- Most of the answers will talk about that you need to limit batch size, or other memory improving techniques. But it can also happen with small models like this one. The clear_session() call takes care of that, but it must be called outside of any device-specific code.
+Most of the answers will talk about that you need to limit batch size, or other memory improving techniques. But it can also happen with small models like this one. The clear_session() call takes care of such cases. Note that clear_session() must be called outside of any device-specific code.
+ 
+<h3>Show results</h3>
+ 
+First, display the name of the best genome. It will be something like "90_10_860_1", which would be 90 epochs, 10 batch size, 860 neurons, 1 layer.
+ 
+ <pre>
+best_genome = eo.get_ranked_genome(0)
+print("best genome = {}".format(best_genome.get_name()) </pre>
+
+Next, save the data from the runs in a spreadsheet for post-hoc analysis. This data gives a good indication of how variable the accuracy of a model can be. 
+<pre>eo.save_results(filename)</pre>
+In this case, the evolver created ten identical models and evaluated them. When we look at the data we can see the variability for each model and the overall improvement:
+
+![ExcelHistoryNN](./reports/figures/ExcelHistoryNN.png) 
+
+
+Although the mean, 5% and 95% accuracy results seem reasonable, the outliers show how variable the results can be. This is why you can't expect repeatability in a trained model. There are several configurations where the range in performance is from 30% to 90%, and one configuration that produces 0% <em>and</em> 100% accuracy! The other issue is that the best values are close to random. It would be impossible to tease out the contribution from the changes in hyperparameters from the random assignment of weights. 
+
+<em>Moral of the story</em>: You can only get reliably repeatable results of the type needed for any hyperparameter optimization from <em>ensembles</em> of identical models.
+
+Ok, back to the code. 
+
+We're now going to plot the training data, the best ensemble, the ensemble average, and the ground truth that we used for this example. The first thing that we do is to create an instance of the  TF2OptExample, which can read in and evaluate an ensemble:
+
+<pre>tfo = TF2OptExample()</pre>
+
+Then, using the defaults, we read in each model and make an ensemble:
+<pre>tfo.plot_population(best_folder_name, noise=0.0)</pre>
+
+This will produce charts that resemble the following
+
