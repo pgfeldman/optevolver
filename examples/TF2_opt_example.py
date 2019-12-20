@@ -196,7 +196,7 @@ def save_func(name: str) -> str:
 # predictions, or both
 if __name__ == "__main__":
     # choose whether to train, evaluate, or both
-    do_train = True
+    do_train = False
     do_evaluate = True
 
     if do_train:

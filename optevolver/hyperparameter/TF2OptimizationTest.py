@@ -2,6 +2,7 @@ from typing import Dict, Tuple
 
 import numpy as np
 import time
+import tensorflow as tf
 
 import optevolver.generators.FloatFunctions as FF
 import optevolver.hyperparameter.EvolutionaryOptimizer as EO
@@ -154,7 +155,7 @@ def save_func(name: str) -> str:
 # predictions, or both
 if __name__ == "__main__":
     # choose whether to train, evaluate, or both
-    do_train = False
+    do_train = True
     do_evaluate = True
 
     if do_train:
@@ -169,7 +170,8 @@ if __name__ == "__main__":
         v4 = VA.EvolveAxis("num_layers", VA.ValueAxisType.INTEGER, min=1, max=10, step=1)
 
         # create the EvolutionaryOptimazer and add the EvolveAxis
-        eo = EO.EvolutionaryOpimizer(threads=1)
+        ensemble_size = 10
+        eo = EO.EvolutionaryOpimizer(threads=1, pop_size=ensemble_size)
         eo.add_axis(v1)
         eo.add_axis(v2)
         eo.add_axis(v3)
@@ -177,7 +179,8 @@ if __name__ == "__main__":
 
         # based on the set of EvolveAxis, create a set of 10 randomly-generated genomes that will be the population
         # that we start with
-        eo.create_intital_genomes(10)
+        num_genomes = 10
+        eo.create_intital_genomes(num_genomes)
 
         # set up the directory that we will save our current ensemble
         MW.create_dir(eval_folder_name)
@@ -186,10 +189,14 @@ if __name__ == "__main__":
         # contribute its EvolveAxis value to the newly created offspring. Mutation rate is the chance that a
         # gene will change after the initial crossover. Once crossover and mutation are finished, the newly
         # instantiated genome is added to the population
-        num_generations = 50
+        num_generations = 5
         crossover_rate = 0.5
         mutation_rate = 0.5
         for i in range(num_generations):
+            # clear any models out of memory. Since the TF2OptimizerTestBase class uses the device strategy
+            # tf.distribute.OneDeviceStrategy(), it's easier to call here, before any models (ensemble_size) for this
+            # particular pass are created
+            tf.keras.backend.clear_session()
             # run the optimizer with references to the eval and save functions, plus the crossover and mutation
             # rate. One of the reasons that we do this is that it can make sense to start with a high mutation and
             # crossover rate, but as we hillclimb, we may want more conservative values

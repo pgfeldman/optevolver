@@ -229,7 +229,7 @@ The second is a plot of best values. Here we can see the result of the earlier, 
 <h2>TF2OptimizationTest Tutorial</h2>
 (The code for this tutorial is in the optevolver/examples/TF2_opt_example.py file)
 
-This example extends the <b>TF2OptimizerTestBase</b> to build a simple dataset and evolve a model's architecture and hyperparameters to map an input sequence to an output sequence. To ensure that the fitness values are repeatable, an <em>Ensemble</em> of ten models is generated using the same Genome. We do this because the random initialization of weights can create a wide range in performance of a model. At the end of the example, we'll see how the individual predictions from each model can be combined to make an average prediction which should be far more reliable. To run the example, you will have to (pip) install the latest version of the <b>optevolver</b> package:
+This example extends the <b>TF2OptimizerTestBase</b> to build a simple dataset and evolve a model's architecture and hyperparameters to map an input sequence vector to an output sequence vector using a simple multilayer perceptron. To ensure that the fitness values are repeatable, an <em>Ensemble</em> of ten models is generated using the same Genome. We do this because the random initialization of weights can create a wide range in performance of a model. At the end of the example, we'll see how the individual predictions from each model can be combined to make an average prediction which should be far more reliable. To run the example, you will have to (pip) install the latest version of the <b>optevolver</b> package:
 
 <pre>pip install optevolver</pre>
 
@@ -516,5 +516,27 @@ We're now going to plot the training data, the best ensemble, the ensemble avera
 Then, using the defaults, we read in each model and make an ensemble:
 <pre>tfo.plot_population(best_folder_name, noise=0.0)</pre>
 
-This will produce charts that resemble the following
+This will produce charts that resemble the following. First, the data set that was used as the input (training set) vector and the output (ground truth):
+
+![Training](./reports/figures/training_set.png) 
+![ground_truth](./reports/figures/ground_truth.png)
+
+Next, we'll have two chrats that show the predictions from each of the models from an ensemble.  The first is from an early generation, before good values had been chosen:
+
+![early_ensemble](./reports/figures/early_ensemble.png)
+
+We can see that network has learned quite a bit, but the results are quite noisy. After a few more generations, the results are <em>much</em> better: 
+
+![late_ensemble](./reports/figures/late_ensemble.png)
+
+Lastly, we can take the average of each prediction, and produce a plot that is extremely similar to the ground truth:
+
+![ensemble_average](./reports/figures/ensemble_average.png)
+
+That's it! All the code is documented for pydoc, and can be navigated by launching the documentation browser:
+<pre>python -m pydoc -b</pre>
+
+![pydoc](./reports/figures/pydoc.png)
+
+Thank you for coming to my TED talk.
 
