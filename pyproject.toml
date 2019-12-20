@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "optevolver"
+author = "Philip Feldman"
+author-email = "phil@philfeldman.com"
+home-page = "https://github.com/pgfeldman/optevolver"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.md"
+
