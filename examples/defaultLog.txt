@@ -1,0 +1,176 @@
+saved 60_12_270_6
+generation = 0, meta: mean:0.201, 5_conf:0.165, 95_conf:0.237, max:0.500, min:0.000, chromo: {'epochs': 60, 'batch_size': 12, 'num_neurons': 270, 'num_layers': 6}
+generation = 0, meta: mean:0.171, 5_conf:0.150, 95_conf:0.192, max:0.300, min:0.000, chromo: {'epochs': 50, 'batch_size': 8, 'num_neurons': 230, 'num_layers': 3}
+saved 50_16_740_4
+generation = 0, meta: mean:0.223, 5_conf:0.197, 95_conf:0.249, max:0.400, min:0.000, chromo: {'epochs': 50, 'batch_size': 16, 'num_neurons': 740, 'num_layers': 4}
+generation = 0, meta: mean:0.021, 5_conf:0.013, 95_conf:0.029, max:0.100, min:0.000, chromo: {'epochs': 20, 'batch_size': 18, 'num_neurons': 590, 'num_layers': 8}
+generation = 0, meta: mean:0.178, 5_conf:0.157, 95_conf:0.199, max:0.300, min:0.000, chromo: {'epochs': 70, 'batch_size': 4, 'num_neurons': 110, 'num_layers': 7}
+saved 40_2_990_1
+generation = 0, meta: mean:0.399, 5_conf:0.378, 95_conf:0.420, max:0.500, min:0.200, chromo: {'epochs': 40, 'batch_size': 2, 'num_neurons': 990, 'num_layers': 1}
+generation = 0, meta: mean:0.051, 5_conf:0.033, 95_conf:0.069, max:0.300, min:0.000, chromo: {'epochs': 90, 'batch_size': 13, 'num_neurons': 860, 'num_layers': 9}
+generation = 0, meta: mean:0.035, 5_conf:0.018, 95_conf:0.052, max:0.300, min:0.000, chromo: {'epochs': 40, 'batch_size': 5, 'num_neurons': 920, 'num_layers': 7}
+generation = 0, meta: mean:0.120, 5_conf:0.104, 95_conf:0.136, max:0.300, min:0.000, chromo: {'epochs': 60, 'batch_size': 17, 'num_neurons': 10, 'num_layers': 9}
+generation = 0, meta: mean:0.151, 5_conf:0.130, 95_conf:0.172, max:0.300, min:0.000, chromo: {'epochs': 70, 'batch_size': 4, 'num_neurons': 300, 'num_layers': 8}
+saved 40_2_280_2
+generation = 1, meta: mean:0.372, 5_conf:0.345, 95_conf:0.399, max:0.600, min:0.100, chromo: {'epochs': 40, 'batch_size': 2, 'num_neurons': 280, 'num_layers': 2}
+generation = 1, meta: mean:0.014, 5_conf:0.004, 95_conf:0.024, max:0.200, min:0.000, chromo: {'epochs': 40, 'batch_size': 3, 'num_neurons': 220, 'num_layers': 9}
+generation = 1, meta: mean:0.337, 5_conf:0.318, 95_conf:0.356, max:0.500, min:0.200, chromo: {'epochs': 50, 'batch_size': 17, 'num_neurons': 710, 'num_layers': 1}
+generation = 1, meta: mean:0.000, 5_conf:nan, 95_conf:nan, max:0.000, min:0.000, chromo: {'epochs': 20, 'batch_size': 2, 'num_neurons': 990, 'num_layers': 9}
+saved 50_3_990_1
+generation = 1, meta: mean:0.418, 5_conf:0.398, 95_conf:0.438, max:0.600, min:0.300, chromo: {'epochs': 50, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 1}
+generation = 1, meta: mean:0.282, 5_conf:0.251, 95_conf:0.313, max:0.500, min:0.000, chromo: {'epochs': 40, 'batch_size': 5, 'num_neurons': 880, 'num_layers': 2}
+generation = 1, meta: mean:0.330, 5_conf:0.321, 95_conf:0.339, max:0.400, min:0.300, chromo: {'epochs': 40, 'batch_size': 8, 'num_neurons': 990, 'num_layers': 1}
+generation = 1, meta: mean:0.323, 5_conf:0.309, 95_conf:0.337, max:0.400, min:0.200, chromo: {'epochs': 40, 'batch_size': 2, 'num_neurons': 280, 'num_layers': 1}
+generation = 1, meta: mean:0.327, 5_conf:0.306, 95_conf:0.348, max:0.500, min:0.200, chromo: {'epochs': 50, 'batch_size': 16, 'num_neurons': 740, 'num_layers': 1}
+saved 50_3_280_2
+generation = 2, meta: mean:0.287, 5_conf:0.266, 95_conf:0.308, max:0.500, min:0.100, chromo: {'epochs': 50, 'batch_size': 3, 'num_neurons': 280, 'num_layers': 2}
+generation = 2, meta: mean:0.057, 5_conf:0.037, 95_conf:0.077, max:0.300, min:0.000, chromo: {'epochs': 50, 'batch_size': 3, 'num_neurons': 220, 'num_layers': 9}
+generation = 2, meta: mean:0.041, 5_conf:0.022, 95_conf:0.060, max:0.300, min:0.000, chromo: {'epochs': 20, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 9}
+saved 50_5_880_2
+generation = 2, meta: mean:0.413, 5_conf:0.396, 95_conf:0.430, max:0.600, min:0.300, chromo: {'epochs': 50, 'batch_size': 5, 'num_neurons': 880, 'num_layers': 2}
+generation = 2, meta: mean:0.405, 5_conf:0.391, 95_conf:0.419, max:0.500, min:0.300, chromo: {'epochs': 50, 'batch_size': 8, 'num_neurons': 990, 'num_layers': 1}
+generation = 2, meta: mean:0.365, 5_conf:0.348, 95_conf:0.382, max:0.500, min:0.300, chromo: {'epochs': 50, 'batch_size': 3, 'num_neurons': 280, 'num_layers': 1}
+generation = 2, meta: mean:0.318, 5_conf:0.299, 95_conf:0.337, max:0.500, min:0.200, chromo: {'epochs': 50, 'batch_size': 3, 'num_neurons': 130, 'num_layers': 1}
+generation = 2, meta: mean:0.194, 5_conf:0.165, 95_conf:0.223, max:0.400, min:0.000, chromo: {'epochs': 50, 'batch_size': 3, 'num_neurons': 20, 'num_layers': 6}
+generation = 2, meta: mean:0.225, 5_conf:0.202, 95_conf:0.248, max:0.400, min:0.000, chromo: {'epochs': 30, 'batch_size': 6, 'num_neurons': 990, 'num_layers': 1}
+saved 20_3_560_1
+generation = 3, meta: mean:0.215, 5_conf:0.192, 95_conf:0.238, max:0.400, min:0.100, chromo: {'epochs': 20, 'batch_size': 3, 'num_neurons': 560, 'num_layers': 1}
+generation = 3, meta: mean:0.120, 5_conf:0.096, 95_conf:0.144, max:0.300, min:0.000, chromo: {'epochs': 50, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 6}
+saved 20_2_410_1
+generation = 3, meta: mean:0.223, 5_conf:0.204, 95_conf:0.242, max:0.400, min:0.100, chromo: {'epochs': 20, 'batch_size': 2, 'num_neurons': 410, 'num_layers': 1}
+saved 90_3_990_1
+generation = 3, meta: mean:0.540, 5_conf:0.513, 95_conf:0.567, max:0.600, min:0.100, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 1}
+generation = 3, meta: mean:0.408, 5_conf:0.383, 95_conf:0.433, max:0.600, min:0.100, chromo: {'epochs': 50, 'batch_size': 3, 'num_neurons': 390, 'num_layers': 1}
+generation = 3, meta: mean:0.126, 5_conf:0.100, 95_conf:0.152, max:0.300, min:0.000, chromo: {'epochs': 50, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 5}
+generation = 3, meta: mean:0.417, 5_conf:0.397, 95_conf:0.437, max:0.600, min:0.300, chromo: {'epochs': 60, 'batch_size': 7, 'num_neurons': 990, 'num_layers': 1}
+generation = 3, meta: mean:0.000, 5_conf:nan, 95_conf:nan, max:0.000, min:0.000, chromo: {'epochs': 20, 'batch_size': 9, 'num_neurons': 990, 'num_layers': 7}
+generation = 3, meta: mean:0.324, 5_conf:0.297, 95_conf:0.351, max:0.500, min:0.000, chromo: {'epochs': 70, 'batch_size': 3, 'num_neurons': 160, 'num_layers': 1}
+saved 90_3_280_2
+generation = 4, meta: mean:0.402, 5_conf:0.376, 95_conf:0.428, max:0.600, min:0.100, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 280, 'num_layers': 2}
+generation = 4, meta: mean:0.082, 5_conf:0.059, 95_conf:0.105, max:0.300, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 220, 'num_layers': 9}
+saved 90_5_880_2
+generation = 4, meta: mean:0.478, 5_conf:0.461, 95_conf:0.495, max:0.600, min:0.400, chromo: {'epochs': 90, 'batch_size': 5, 'num_neurons': 880, 'num_layers': 2}
+generation = 4, meta: mean:0.410, 5_conf:0.391, 95_conf:0.429, max:0.600, min:0.200, chromo: {'epochs': 90, 'batch_size': 8, 'num_neurons': 990, 'num_layers': 1}
+generation = 4, meta: mean:0.315, 5_conf:0.293, 95_conf:0.337, max:0.400, min:0.100, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 280, 'num_layers': 1}
+generation = 4, meta: mean:0.270, 5_conf:0.234, 95_conf:0.306, max:0.500, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 130, 'num_layers': 1}
+generation = 4, meta: mean:0.219, 5_conf:0.205, 95_conf:0.233, max:0.300, min:0.100, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 20, 'num_layers': 6}
+generation = 4, meta: mean:0.166, 5_conf:0.144, 95_conf:0.188, max:0.300, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 6}
+generation = 4, meta: mean:0.423, 5_conf:0.403, 95_conf:0.443, max:0.600, min:0.200, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 390, 'num_layers': 1}
+saved 90_3_990_5
+generation = 5, meta: mean:0.232, 5_conf:0.202, 95_conf:0.262, max:0.400, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 5}
+generation = 5, meta: mean:0.036, 5_conf:0.021, 95_conf:0.051, max:0.200, min:0.000, chromo: {'epochs': 90, 'batch_size': 9, 'num_neurons': 990, 'num_layers': 5}
+saved 20_3_730_1
+generation = 5, meta: mean:0.277, 5_conf:0.254, 95_conf:0.300, max:0.400, min:0.100, chromo: {'epochs': 20, 'batch_size': 3, 'num_neurons': 730, 'num_layers': 1}
+generation = 5, meta: mean:0.039, 5_conf:0.021, 95_conf:0.057, max:0.300, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 160, 'num_layers': 8}
+saved 70_19_360_1
+generation = 5, meta: mean:0.465, 5_conf:0.443, 95_conf:0.487, max:0.600, min:0.300, chromo: {'epochs': 70, 'batch_size': 19, 'num_neurons': 360, 'num_layers': 1}
+generation = 5, meta: mean:0.391, 5_conf:0.368, 95_conf:0.414, max:0.600, min:0.200, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 860, 'num_layers': 1}
+generation = 5, meta: mean:0.201, 5_conf:0.175, 95_conf:0.227, max:0.400, min:0.000, chromo: {'epochs': 30, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 1}
+generation = 5, meta: mean:0.432, 5_conf:0.408, 95_conf:0.456, max:0.700, min:0.300, chromo: {'epochs': 60, 'batch_size': 16, 'num_neurons': 650, 'num_layers': 1}
+generation = 5, meta: mean:0.404, 5_conf:0.377, 95_conf:0.431, max:0.700, min:0.200, chromo: {'epochs': 60, 'batch_size': 4, 'num_neurons': 990, 'num_layers': 1}
+saved 90_3_790_1
+generation = 6, meta: mean:0.395, 5_conf:0.373, 95_conf:0.417, max:0.700, min:0.200, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 790, 'num_layers': 1}
+generation = 6, meta: mean:0.038, 5_conf:0.025, 95_conf:0.051, max:0.200, min:0.000, chromo: {'epochs': 40, 'batch_size': 3, 'num_neurons': 800, 'num_layers': 7}
+generation = 6, meta: mean:0.072, 5_conf:0.054, 95_conf:0.090, max:0.300, min:0.000, chromo: {'epochs': 30, 'batch_size': 3, 'num_neurons': 680, 'num_layers': 3}
+generation = 6, meta: mean:0.255, 5_conf:0.225, 95_conf:0.285, max:0.500, min:0.000, chromo: {'epochs': 90, 'batch_size': 9, 'num_neurons': 640, 'num_layers': 1}
+generation = 6, meta: mean:0.116, 5_conf:0.092, 95_conf:0.140, max:0.300, min:0.000, chromo: {'epochs': 70, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 5}
+generation = 6, meta: mean:0.184, 5_conf:0.154, 95_conf:0.214, max:0.400, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 10, 'num_layers': 1}
+generation = 6, meta: mean:0.088, 5_conf:0.062, 95_conf:0.114, max:0.400, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 7}
+generation = 6, meta: mean:0.000, 5_conf:nan, 95_conf:nan, max:0.000, min:0.000, chromo: {'epochs': 10, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 5}
+generation = 6, meta: mean:0.245, 5_conf:0.215, 95_conf:0.275, max:0.500, min:0.000, chromo: {'epochs': 20, 'batch_size': 5, 'num_neurons': 270, 'num_layers': 1}
+saved 60_19_860_7
+generation = 7, meta: mean:0.077, 5_conf:0.056, 95_conf:0.098, max:0.300, min:0.000, chromo: {'epochs': 60, 'batch_size': 19, 'num_neurons': 860, 'num_layers': 7}
+saved 70_10_170_7
+generation = 7, meta: mean:0.282, 5_conf:0.259, 95_conf:0.305, max:0.400, min:0.000, chromo: {'epochs': 70, 'batch_size': 10, 'num_neurons': 170, 'num_layers': 7}
+generation = 7, meta: mean:0.237, 5_conf:0.204, 95_conf:0.270, max:0.500, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 750, 'num_layers': 3}
+saved 90_15_740_5
+generation = 7, meta: mean:0.299, 5_conf:0.272, 95_conf:0.326, max:0.500, min:0.000, chromo: {'epochs': 90, 'batch_size': 15, 'num_neurons': 740, 'num_layers': 5}
+generation = 7, meta: mean:0.220, 5_conf:0.186, 95_conf:0.254, max:0.500, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 940, 'num_layers': 6}
+saved 60_13_600_1
+generation = 7, meta: mean:0.455, 5_conf:0.433, 95_conf:0.477, max:0.600, min:0.300, chromo: {'epochs': 60, 'batch_size': 13, 'num_neurons': 600, 'num_layers': 1}
+generation = 7, meta: mean:0.428, 5_conf:0.411, 95_conf:0.445, max:0.500, min:0.300, chromo: {'epochs': 70, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 1}
+generation = 7, meta: mean:0.385, 5_conf:0.361, 95_conf:0.409, max:0.600, min:0.200, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 230, 'num_layers': 1}
+generation = 7, meta: mean:0.292, 5_conf:0.273, 95_conf:0.311, max:0.400, min:0.100, chromo: {'epochs': 40, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 1}
+saved 90_3_990_4
+generation = 8, meta: mean:0.168, 5_conf:0.129, 95_conf:0.207, max:0.600, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 4}
+generation = 8, meta: mean:0.122, 5_conf:0.096, 95_conf:0.148, max:0.300, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 590, 'num_layers': 5}
+saved 90_3_20_1
+generation = 8, meta: mean:0.362, 5_conf:0.347, 95_conf:0.377, max:0.500, min:0.200, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 20, 'num_layers': 1}
+generation = 8, meta: mean:0.000, 5_conf:nan, 95_conf:nan, max:0.000, min:0.000, chromo: {'epochs': 20, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 8}
+generation = 8, meta: mean:0.322, 5_conf:0.298, 95_conf:0.346, max:0.500, min:0.100, chromo: {'epochs': 90, 'batch_size': 6, 'num_neurons': 30, 'num_layers': 1}
+generation = 8, meta: mean:0.007, 5_conf:0.002, 95_conf:0.012, max:0.100, min:0.000, chromo: {'epochs': 90, 'batch_size': 15, 'num_neurons': 990, 'num_layers': 8}
+generation = 8, meta: mean:0.229, 5_conf:0.209, 95_conf:0.249, max:0.400, min:0.100, chromo: {'epochs': 30, 'batch_size': 2, 'num_neurons': 200, 'num_layers': 2}
+saved 90_3_840_1
+generation = 8, meta: mean:0.479, 5_conf:0.440, 95_conf:0.518, max:0.700, min:0.100, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 840, 'num_layers': 1}
+generation = 8, meta: mean:0.000, 5_conf:nan, 95_conf:nan, max:0.000, min:0.000, chromo: {'epochs': 10, 'batch_size': 3, 'num_neurons': 990, 'num_layers': 7}
+saved 90_14_990_1
+generation = 9, meta: mean:0.520, 5_conf:0.506, 95_conf:0.534, max:0.600, min:0.400, chromo: {'epochs': 90, 'batch_size': 14, 'num_neurons': 990, 'num_layers': 1}
+generation = 9, meta: mean:0.480, 5_conf:0.466, 95_conf:0.494, max:0.600, min:0.400, chromo: {'epochs': 90, 'batch_size': 19, 'num_neurons': 990, 'num_layers': 2}
+generation = 9, meta: mean:0.049, 5_conf:0.028, 95_conf:0.070, max:0.300, min:0.000, chromo: {'epochs': 90, 'batch_size': 7, 'num_neurons': 990, 'num_layers': 8}
+saved 90_17_160_3
+generation = 9, meta: mean:0.527, 5_conf:0.509, 95_conf:0.545, max:0.600, min:0.300, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 160, 'num_layers': 3}
+generation = 9, meta: mean:0.358, 5_conf:0.338, 95_conf:0.378, max:0.600, min:0.200, chromo: {'epochs': 40, 'batch_size': 12, 'num_neurons': 930, 'num_layers': 1}
+generation = 9, meta: mean:0.414, 5_conf:0.394, 95_conf:0.434, max:0.600, min:0.200, chromo: {'epochs': 90, 'batch_size': 4, 'num_neurons': 140, 'num_layers': 4}
+generation = 9, meta: mean:0.087, 5_conf:0.064, 95_conf:0.110, max:0.400, min:0.000, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 430, 'num_layers': 9}
+generation = 9, meta: mean:0.505, 5_conf:0.472, 95_conf:0.538, max:0.700, min:0.100, chromo: {'epochs': 90, 'batch_size': 3, 'num_neurons': 870, 'num_layers': 1}
+generation = 9, meta: mean:0.253, 5_conf:0.234, 95_conf:0.272, max:0.400, min:0.100, chromo: {'epochs': 90, 'batch_size': 18, 'num_neurons': 310, 'num_layers': 7}
+saved 20_3_700_9
+generation = 10, meta: mean:0.000, 5_conf:nan, 95_conf:nan, max:0.000, min:0.000, chromo: {'epochs': 20, 'batch_size': 3, 'num_neurons': 700, 'num_layers': 9}
+saved 90_2_990_3
+generation = 10, meta: mean:0.331, 5_conf:0.309, 95_conf:0.353, max:0.500, min:0.100, chromo: {'epochs': 90, 'batch_size': 2, 'num_neurons': 990, 'num_layers': 3}
+saved 90_16_610_1
+generation = 10, meta: mean:0.543, 5_conf:0.524, 95_conf:0.562, max:0.700, min:0.400, chromo: {'epochs': 90, 'batch_size': 16, 'num_neurons': 610, 'num_layers': 1}
+generation = 10, meta: mean:0.356, 5_conf:0.329, 95_conf:0.383, max:0.500, min:0.200, chromo: {'epochs': 90, 'batch_size': 7, 'num_neurons': 60, 'num_layers': 1}
+generation = 10, meta: mean:0.251, 5_conf:0.234, 95_conf:0.268, max:0.400, min:0.100, chromo: {'epochs': 90, 'batch_size': 15, 'num_neurons': 460, 'num_layers': 6}
+saved 90_17_990_1
+generation = 10, meta: mean:0.575, 5_conf:0.557, 95_conf:0.593, max:0.800, min:0.500, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 1}
+generation = 10, meta: mean:0.102, 5_conf:0.078, 95_conf:0.126, max:0.400, min:0.000, chromo: {'epochs': 40, 'batch_size': 12, 'num_neurons': 990, 'num_layers': 4}
+generation = 10, meta: mean:0.092, 5_conf:0.070, 95_conf:0.114, max:0.300, min:0.000, chromo: {'epochs': 40, 'batch_size': 3, 'num_neurons': 10, 'num_layers': 1}
+generation = 10, meta: mean:0.280, 5_conf:0.266, 95_conf:0.294, max:0.400, min:0.100, chromo: {'epochs': 90, 'batch_size': 18, 'num_neurons': 20, 'num_layers': 5}
+saved 90_17_280_2
+generation = 11, meta: mean:0.476, 5_conf:0.454, 95_conf:0.498, max:0.700, min:0.300, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 280, 'num_layers': 2}
+generation = 11, meta: mean:0.014, 5_conf:0.004, 95_conf:0.024, max:0.200, min:0.000, chromo: {'epochs': 20, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 9}
+saved 90_17_280_1
+generation = 11, meta: mean:0.505, 5_conf:0.486, 95_conf:0.524, max:0.700, min:0.300, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 280, 'num_layers': 1}
+generation = 11, meta: mean:0.477, 5_conf:0.455, 95_conf:0.499, max:0.700, min:0.300, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 130, 'num_layers': 1}
+generation = 11, meta: mean:0.328, 5_conf:0.313, 95_conf:0.343, max:0.400, min:0.200, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 20, 'num_layers': 6}
+generation = 11, meta: mean:0.251, 5_conf:0.222, 95_conf:0.280, max:0.500, min:0.000, chromo: {'epochs': 20, 'batch_size': 17, 'num_neurons': 560, 'num_layers': 1}
+generation = 11, meta: mean:0.072, 5_conf:0.056, 95_conf:0.088, max:0.300, min:0.000, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 6}
+saved 90_17_390_1
+generation = 11, meta: mean:0.520, 5_conf:0.502, 95_conf:0.538, max:0.700, min:0.400, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 390, 'num_layers': 1}
+generation = 11, meta: mean:0.177, 5_conf:0.143, 95_conf:0.211, max:0.500, min:0.000, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 5}
+saved 70_17_160_1
+generation = 12, meta: mean:0.401, 5_conf:0.390, 95_conf:0.412, max:0.500, min:0.300, chromo: {'epochs': 70, 'batch_size': 17, 'num_neurons': 160, 'num_layers': 1}
+generation = 12, meta: mean:0.194, 5_conf:0.181, 95_conf:0.207, max:0.300, min:0.100, chromo: {'epochs': 20, 'batch_size': 17, 'num_neurons': 730, 'num_layers': 1}
+generation = 12, meta: mean:0.360, 5_conf:0.326, 95_conf:0.394, max:0.700, min:0.100, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 160, 'num_layers': 8}
+saved 90_17_860_1
+generation = 12, meta: mean:0.542, 5_conf:0.518, 95_conf:0.566, max:0.700, min:0.300, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 860, 'num_layers': 1}
+generation = 12, meta: mean:0.264, 5_conf:0.229, 95_conf:0.299, max:0.500, min:0.000, chromo: {'epochs': 30, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 1}
+saved 90_17_790_1
+generation = 12, meta: mean:0.563, 5_conf:0.553, 95_conf:0.573, max:0.600, min:0.500, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 790, 'num_layers': 1}
+generation = 12, meta: mean:0.000, 5_conf:nan, 95_conf:nan, max:0.000, min:0.000, chromo: {'epochs': 40, 'batch_size': 17, 'num_neurons': 800, 'num_layers': 7}
+generation = 12, meta: mean:0.228, 5_conf:0.201, 95_conf:0.255, max:0.400, min:0.000, chromo: {'epochs': 30, 'batch_size': 17, 'num_neurons': 680, 'num_layers': 3}
+generation = 12, meta: mean:0.140, 5_conf:0.113, 95_conf:0.167, max:0.400, min:0.000, chromo: {'epochs': 70, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 5}
+saved 90_17_10_1
+generation = 13, meta: mean:0.198, 5_conf:0.170, 95_conf:0.226, max:0.400, min:0.000, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 10, 'num_layers': 1}
+generation = 13, meta: mean:0.147, 5_conf:0.116, 95_conf:0.178, max:0.400, min:0.000, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 7}
+saved 90_17_750_3
+generation = 13, meta: mean:0.471, 5_conf:0.449, 95_conf:0.493, max:0.700, min:0.300, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 750, 'num_layers': 3}
+generation = 13, meta: mean:0.063, 5_conf:0.042, 95_conf:0.084, max:0.300, min:0.000, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 940, 'num_layers': 6}
+saved 70_17_990_1
+generation = 13, meta: mean:0.534, 5_conf:0.517, 95_conf:0.551, max:0.700, min:0.400, chromo: {'epochs': 70, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 1}
+generation = 13, meta: mean:0.450, 5_conf:0.425, 95_conf:0.475, max:0.700, min:0.300, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 230, 'num_layers': 1}
+generation = 13, meta: mean:0.330, 5_conf:0.315, 95_conf:0.345, max:0.500, min:0.200, chromo: {'epochs': 40, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 1}
+generation = 13, meta: mean:0.372, 5_conf:0.350, 95_conf:0.394, max:0.600, min:0.200, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 4}
+generation = 13, meta: mean:0.326, 5_conf:0.311, 95_conf:0.341, max:0.500, min:0.200, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 590, 'num_layers': 5}
+saved 90_17_20_1
+generation = 14, meta: mean:0.335, 5_conf:0.307, 95_conf:0.363, max:0.500, min:0.000, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 20, 'num_layers': 1}
+generation = 14, meta: mean:0.029, 5_conf:0.017, 95_conf:0.041, max:0.200, min:0.000, chromo: {'epochs': 20, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 8}
+saved 90_17_840_1
+generation = 14, meta: mean:0.551, 5_conf:0.532, 95_conf:0.570, max:0.700, min:0.400, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 840, 'num_layers': 1}
+generation = 14, meta: mean:0.000, 5_conf:nan, 95_conf:nan, max:0.000, min:0.000, chromo: {'epochs': 10, 'batch_size': 17, 'num_neurons': 990, 'num_layers': 7}
+generation = 14, meta: mean:0.099, 5_conf:0.078, 95_conf:0.120, max:0.300, min:0.000, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 430, 'num_layers': 9}
+generation = 14, meta: mean:0.537, 5_conf:0.511, 95_conf:0.563, max:0.700, min:0.300, chromo: {'epochs': 90, 'batch_size': 17, 'num_neurons': 870, 'num_layers': 1}
+generation = 14, meta: mean:0.008, 5_conf:0.003, 95_conf:0.013, max:0.100, min:0.000, chromo: {'epochs': 20, 'batch_size': 17, 'num_neurons': 700, 'num_layers': 9}
+generation = 14, meta: mean:0.134, 5_conf:0.108, 95_conf:0.160, max:0.300, min:0.000, chromo: {'epochs': 40, 'batch_size': 17, 'num_neurons': 10, 'num_layers': 1}
+generation = 14, meta: mean:0.250, 5_conf:0.228, 95_conf:0.272, max:0.500, min:0.100, chromo: {'epochs': 30, 'batch_size': 10, 'num_neurons': 990, 'num_layers': 1}
