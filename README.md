@@ -438,17 +438,17 @@ def save_func(name: str) -> str:
 <h3>Set up the evolver for training</h3>
 This should look almost identical to the <b>EvolutionaryOptimizer</b> example above. We are using the same EvolveAxis class, but we are setting them to different values, INTEGER, in this case.
 <pre>
-# set up the filename that we will save our statistics to
+ # set up the filename that we will save our statistics to
 timestr = time.strftime("%H-%M_%m-%d-%Y", time.gmtime())
 filename = "./evolve_{}.xlsx".format(timestr)
 
-# create independent EvolveAxis for hyperparameters (epochs and batch_size), and architecture search (num_neurons, num_layers)
+ # create independent EvolveAxis for hyperparameters (epochs and batch_size), and architecture search (num_neurons, num_layers)
 v1 = VA.EvolveAxis("epochs", VA.ValueAxisType.INTEGER, min=10, max=100, step=10)
 v2 = VA.EvolveAxis("batch_size", VA.ValueAxisType.INTEGER, min=2, max=20, step=1)
 v3 = VA.EvolveAxis("num_neurons", VA.ValueAxisType.INTEGER, min=10, max=1000, step=10)
 v4 = VA.EvolveAxis("num_layers", VA.ValueAxisType.INTEGER, min=1, max=10, step=1)
 
-# create the EvolutionaryOptimizer and add the EvolveAxis
+ # create the EvolutionaryOptimizer and add the EvolveAxis
 eo = EO.EvolutionaryOpimizer(threads=0)
 eo.add_axis(v1)
 eo.add_axis(v2)
