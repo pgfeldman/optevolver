@@ -8,3 +8,6 @@ python setup.py sdist bdist_wheel
 cd to the 'dist' directory
 pip install optevolver-0.1.3-py3-none-any.whl
 
+to deploy on PyPi, step out of the dist directory
+twine upload dist/*
+
