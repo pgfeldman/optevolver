@@ -196,7 +196,7 @@ def save_func(name: str) -> str:
 # predictions, or both
 if __name__ == "__main__":
     # choose whether to train, evaluate, or both
-    do_train = False
+    do_train = True
     do_evaluate = True
 
     if do_train:
@@ -228,7 +228,7 @@ if __name__ == "__main__":
         # contribute its EvolveAxis value to the newly created offspring. Mutation rate is the chance that a
         # gene will change after the initial crossover. Once crossover and mutation are finished, the newly
         # instantiated genome is added to the population
-        num_generations = 2
+        num_generations = 5
         crossover_rate = 0.5
         mutation_rate = 0.5
         for i in range(num_generations):
